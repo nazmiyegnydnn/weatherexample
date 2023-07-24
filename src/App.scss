@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+//Genel scss tanımlamalar
+$title-color:#ffe977;
+$title-weight:48px;
+
+
+.project{
+    .title{
+        margin-top: 40px;
+        text-align: center;
+        color:$title-color;
+        font-size:$title-weight ;
+    }
+}
+
+
+
+//Responsive
+@media screen and (min-width:950px) {
+    .project{
+        width: 60%;
+        height: 100vh;
+        margin: 0 auto;
+        background-color: rgba(3,3,3,0.67);
+    }
+    
+}
